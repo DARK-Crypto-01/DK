@@ -75,6 +75,9 @@ exchanges:
       price: 1
       amount: 5
 
+websocket:
+  max_instances_per_ws: 6
+
 trading:
   sell_trading_fee: 0.001
   buy:
