@@ -115,7 +115,7 @@ retry_config:
 logging:
   enabled: true
   file: "trading_bot.log"
-  level: "INFO"
+  level: "DEBUG"
   max_size_mb: 10
   backups: 3
   console: true
