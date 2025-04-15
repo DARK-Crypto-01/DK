@@ -74,25 +74,22 @@ exchanges:
     precision:
       price: 4
       amount: 6
-      fee: 8
 
 trading:
   sell_trading_fee: 0.001
   buy:
-    fixed_usdt: 100
-    trigger_price_adjust: 5
-    limit_price_adjust: 4
+    fixed_usdt: 10
+    trigger_price_adjust: 4
+    limit_price_adjust: 5
   sell:
-    trigger_price_adjust: 5
-    limit_price_adjust: 4
+    trigger_price_adjust: 4
+    limit_price_adjust: 5
 
 strategy:
   default_exchange: "gateio"
   currency_pair: "BTC_USDT"
   trade_limit: 6
   parallel_instances: 12
-  dynamic_multiplier: 24
-  fallback_instances: 12
 
 retry_config:
   websocket:
