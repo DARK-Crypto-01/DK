@@ -1,0 +1,5 @@
+pyyaml
+websockets
+jsonpath-ng
+uvloop
+requests
