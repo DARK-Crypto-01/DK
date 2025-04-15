@@ -76,23 +76,23 @@ exchanges:
       amount: 5
 
 websocket:
-  max_instances_per_ws: 6
+  max_instances_per_ws: 2
 
 trading:
   sell_trading_fee: 0.001
   buy:
     fixed_usdt: 1.1
-    trigger_price_adjust: 400
-    limit_price_adjust: 500
+    trigger_price_adjust: 4000
+    limit_price_adjust: 5000
   sell:
-    trigger_price_adjust: 400
-    limit_price_adjust: 500
+    trigger_price_adjust: 4000
+    limit_price_adjust: 5000
 
 strategy:
   default_exchange: "gateio"
   currency_pair: "BTC_USDT"
   trade_limit: 3
-  parallel_instances: 2
+  parallel_instances: 5
 
 retry_config:
   websocket:
