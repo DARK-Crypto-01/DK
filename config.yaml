@@ -11,8 +11,8 @@ exchanges:
         mainnet: "https://api.gateio.ws/api/v4"
         testnet: "https://fx-api-testnet.gateio.ws/api/v4"
       auth_type: "HMAC_SHA512"
-      key: "YOUR_API_KEY"
-      secret: "YOUR_API_SECRET"
+      key: "8a13b54853f744b2160524670d9b24ad"
+      secret: "8f159f99a2e4caed51a8396355965ffdecce9ca1af0cfe33a76289b01c8f40d0"
     
     client_id:
       pattern: "uuid"
