@@ -62,7 +62,6 @@ class TradingStrategy:
         
         # Initialize precision values
         self.tick_size = 10 ** -self.adapter.exchange_cfg['precision']['price']
-        self.fee_precision = self.adapter.exchange_cfg['precision']['fee']
         
         # Get fixed parallel instances from config
         self.parallel_instances = config['strategy']['parallel_instances']
