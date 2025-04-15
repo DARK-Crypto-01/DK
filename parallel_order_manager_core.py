@@ -114,6 +114,7 @@ class ParallelOrderManager:
                 self.metrics['avg_placement_time'] = (
                     (self.metrics['avg_placement_time'] * self.metrics['orders_placed'] + exec_time) 
                     / (self.metrics['orders_placed'] + 1)
+                )
                 self.metrics['orders_placed'] += 1
                 
                 self.logger.info(
