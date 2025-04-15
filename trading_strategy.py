@@ -3,7 +3,7 @@ import math
 import logging
 from datetime import datetime
 from ws_manager import WSManager
-from parallel_order_manager import ParallelOrderManager
+from parallel_order_manager_core import ParallelOrderManager
 from exchange_adapter import ExchangeAdapter
 
 class OrderState:
